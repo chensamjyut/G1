@@ -53,3 +53,5 @@ git lfs fsck
 ## 明确授权后的实际尝试
 
 HTTPS 推送因未配置登录凭据失败。随后现有 SSH 身份成功认证为 `wxy20010505`，但 GitHub 明确拒绝该账号写入 `chensamjyut/G1`（Permission denied）。代码和 LFS 对象均未上传，无法进行远程克隆验证。需要仓库所有者授予该账号 Write 权限并由账号接受邀请，或在本机配置有权限的身份。独立发布仓库 origin 已设为 `git@github.com:chensamjyut/G1.git`；未改动原项目 remote。
+
+用户已配置独立 SSH 密钥并成功认证为 `chensamjyut`。先前账号权限问题已解除，重新检查远端未发现 refs，准备执行授权上传。
