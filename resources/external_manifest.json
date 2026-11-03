@@ -1,0 +1,34 @@
+[
+  {
+    "id": "scene",
+    "original_relative_path": "isaacsimFactoryDemo/fac_num.usd",
+    "sha256": "d0fe6a9a79b81939e39045dcb01d5eeca12dd65c50bd3f74238ae486011e5987",
+    "size_bytes": 63174472,
+    "included": false,
+    "reason": "Private scene/user image or redistribution not yet confirmed; requires authorized independent copy. USD dependencies must also be provided."
+  },
+  {
+    "id": "robot",
+    "original_relative_path": "unitree_sim_isaaclab/assets/robots/g1-29dof_wholebody_dex1/g1_29dof_with_dex1_gimbal.usda",
+    "sha256": "cfa53e9720bd47d40c0dbc7523e7ad6d650d0ed0c2ad0570ea89fc67936103aa",
+    "size_bytes": 2963,
+    "included": false,
+    "reason": "Private scene/user image or redistribution not yet confirmed; requires authorized independent copy. USD dependencies must also be provided."
+  },
+  {
+    "id": "walking_policy",
+    "original_relative_path": "unitree_sim_isaaclab/assets/model/policy.onnx",
+    "sha256": "d067b3930041f9bd13c88797bb50ce1c4a5c9ffd4341adc30d11985b3ac71b40",
+    "size_bytes": 2530072,
+    "included": false,
+    "reason": "Private scene/user image or redistribution not yet confirmed; requires authorized independent copy. USD dependencies must also be provided."
+  },
+  {
+    "id": "target_image",
+    "original_relative_path": "isaacsimFactoryDemo/planner/targets/cabinet10_user_reference.png",
+    "sha256": "15f4d2a5db1a685ea11c880e780c12cc24cceb6c15c4b4b7fdef499a39f8c0c6",
+    "size_bytes": 1306885,
+    "included": false,
+    "reason": "Private scene/user image or redistribution not yet confirmed; requires authorized independent copy. USD dependencies must also be provided."
+  }
+]

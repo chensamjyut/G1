@@ -1,0 +1,39 @@
+{
+  "scene_path": null,
+  "inspection_points": [
+    {
+      "id": "cabinet10",
+      "target_image_path": null
+    }
+  ],
+  "target_metadata": {
+    "sha256": "15f4d2a5db1a685ea11c880e780c12cc24cceb6c15c4b4b7fdef499a39f8c0c6"
+  },
+  "target_geometry": {
+    "label_suffix": "/RelocatedLabeledCabinets/Cabinet_02/Payload/WindowColorLabel",
+    "factory_center_xy": [
+      0.6871530304,
+      -0.0061098597
+    ]
+  },
+  "viewpoint_policy": {
+    "checkpoint": "models/grpo_viewpoint.pt",
+    "checkpoint_sha256": "6356ea40de6fd02b6988adf751aa6f7f788b4240137ee2aedd6b2e1f95312af8",
+    "dino_source": "third_party/dinov2",
+    "dino_weights": "models/dinov2_vitb14_pretrain.pth",
+    "device": "cuda"
+  },
+  "execution_root": "execution",
+  "output_root": "outputs",
+  "reader": {
+    "model": "doubao-seed-2-1-pro-260915",
+    "python": null
+  },
+  "max_view_actions": 50,
+  "live_navigation_timeout_s": 600,
+  "live_view_timeout_s": 1800,
+  "navigation_heading_offset_deg": -8,
+  "gimbal_pitch_deg": -10,
+  "walking_policy": "resources/private/policy.onnx",
+  "robot_usd": null
+}

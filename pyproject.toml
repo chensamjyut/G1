@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "g1-inspection-release"
+version = "0.1.0"
+description = "Single-point G1 inspection: navigation, GRPO viewpoint and number/color reading"
+requires-python = ">=3.11,<3.12"
+dependencies = ["numpy==1.26.4", "Pillow==11.2.1", "opencv-python-headless==4.11.0.86", "PyYAML==6.0.2", "torch>=2.8,<3"]
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+reader = ["volcengine-python-sdk[ark]>=4,<5"]
+[project.scripts]
+g1-inspection = "g1_release.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

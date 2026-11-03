@@ -1,0 +1,5 @@
+This content pack is bound by the NVIDIA Omniverse terms found here: 
+https://docs.omniverse.nvidia.com/platform/latest/common/NVIDIA_Omniverse_License_Agreement.html
+
+Omniverse Enterprise Customers are bound by the NVIDIA Omniverse terms found here for all content packs:
+https://docs.omniverse.nvidia.com/enterprise/latest/common/NVIDIA_Omniverse_License_Agreement.html

@@ -1,0 +1,55 @@
+robot_config: robot_info.yaml
+control:
+  speed_m_s: 0.4
+  max_speed_m_s: 0.5
+  dead_zone_m_s: 0.03
+  acceleration_m_s2: 1.0
+  deceleration_m_s2: 1.3
+  duration_s: 1.5
+  settle_s: 0.4
+  warmup_s: 3.0
+  height_m: 0.8
+  brake_duration_s: 0.4
+  translation_actions:
+    MoveXPos:
+      velocity_m_s: 0.4
+      duration_s: 1.5
+      brake_duration_s: 0.4
+      settle_duration_s: 0.4
+    MoveXNeg:
+      velocity_m_s: 0.4
+      duration_s: 1.5
+      brake_duration_s: 0.4
+      settle_duration_s: 0.4
+    MoveYPos:
+      velocity_m_s: 0.4
+      duration_s: 1.5
+      brake_duration_s: 0.4
+      settle_duration_s: 0.4
+    MoveYNeg:
+      velocity_m_s: 0.4
+      duration_s: 1.5
+      brake_duration_s: 0.4
+      settle_duration_s: 0.4
+  yaw_rate_rad_s: 0.9
+  turn_duration_s: 1.8
+  heading_hold:
+    enabled: false
+    kp_yaw: 1.0
+    kd_yaw: 0.1
+    max_yaw_rate_correction: 0.2
+    yaw_error_deadzone_rad: 0.01
+    correction_start_delay_s: 0.0
+    correction_end_before_brake_s: 0.0
+    brake_yaw_control_enabled: true
+    settle_yaw_control_enabled: false
+safety:
+  min_height_m: 0.5
+  min_upright_cos: 0.75
+  collision_force_n: 35.0
+  contact_ignore_regex: .*ankle_roll_link
+  minimum_displacement_m: 0.025
+  cross_axis_tolerance_m: 0.15
+  joint_tolerance_deg: 0.25
+  min_turn_rad: 0.35
+sim_project: ../../sim_runtime

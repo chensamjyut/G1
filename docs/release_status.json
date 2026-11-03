@@ -1,0 +1,24 @@
+{
+  "status": "PREPARED_NOT_END_TO_END_ACCEPTED",
+  "model_selected": "s1_3m_r0001",
+  "model_selection_basis": "highest observed retained GRPO rollout mean similarity and success, ancestry verified; not independent paired evaluation",
+  "navigation_body_yaw": "navigation_only",
+  "viewpoint_yaw": "existing_gimbal_pan_only",
+  "viewpoint_xy_body_yaw_command": 0,
+  "active_training_modified": false,
+  "offline_model_regression": "PASS",
+  "independent_cpu_editable_install": "PASS",
+  "unit_tests": 38,
+  "navigation_build": "PASS_WITH_EXPLICIT_HOST_LIBSTDCXX_OPTION",
+  "navigation_transport": "PASS_SYNTHETIC_INPUT_NOT_REAL_MOVEMENT",
+  "simulator_full_mission": "NOT_RUN_ACTIVE_TRAINING_PRESERVED",
+  "real_api_reading": "NOT_RUN_NO_KEY_IN_CURRENT_ENVIRONMENT",
+  "public_release": "BLOCKED_LICENSE_RESOURCE_AND_LIVE_ACCEPTANCE",
+  "github_pushed": false,
+  "blocking_items": [
+    "Full Isaac mission and yaw-remapped performance unverified",
+    "Current environment has no ARK_API_KEY",
+    "Private asset/public redistribution authorization unresolved",
+    "Full GPU platform independent installation and Kit material/ground resource verification outstanding"
+  ]
+}

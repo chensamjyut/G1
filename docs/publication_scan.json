@@ -1,0 +1,8 @@
+{
+  "files_scanned": 166,
+  "external_symlinks": [],
+  "user_absolute_path_files": [],
+  "credential_pattern_files": [],
+  "limits": "Pattern scan plus allowlisted copy; not a universal credential detector. Third-party author/license attributions retained.",
+  "passed": true
+}

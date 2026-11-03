@@ -1,0 +1,20 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "packages": {
+    "isaacsim": "5.0.0.0",
+    "isaaclab": "0.44.9",
+    "isaaclab_tasks": "0.10.45",
+    "torch": "2.13.0",
+    "torchvision": "0.28.0",
+    "numpy": "1.26.4",
+    "pillow": "11.2.1",
+    "opencv-python": "4.11.0.86",
+    "onnxruntime": "1.22.1",
+    "onnxruntime-gpu": null,
+    "gymnasium": "1.2.0",
+    "cyclonedds": "0.10.2",
+    "unitree-sdk2py": "1.0.1",
+    "warp-lang": "1.15.0"
+  },
+  "verified_clean_simulator_install": false
+}

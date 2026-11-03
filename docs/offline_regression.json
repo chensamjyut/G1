@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "synthetic_shift",
+      "passed": true,
+      "max_logits_abs_error": 2.0742416381835938e-05,
+      "max_probability_abs_error": 1.6689300537109375e-06,
+      "similarity_abs_error": 5.960464477539063e-08,
+      "action": "Stop",
+      "inliers": 368
+    },
+    {
+      "case": "synthetic_stop",
+      "passed": true,
+      "max_logits_abs_error": 0.0,
+      "max_probability_abs_error": 0.0,
+      "similarity_abs_error": 1.7881393432617188e-07,
+      "action": "Stop",
+      "inliers": 396
+    },
+    {
+      "case": "same_blank",
+      "passed": true,
+      "max_logits_abs_error": 0.0,
+      "max_probability_abs_error": 0.0,
+      "similarity_abs_error": 0.0,
+      "action": "Stop",
+      "inliers": 0
+    },
+    {
+      "case": "different_textureless",
+      "passed": true,
+      "max_logits_abs_error": 7.3909759521484375e-06,
+      "max_probability_abs_error": 7.748603820800781e-07,
+      "similarity_abs_error": 1.1920928955078125e-07,
+      "action": "GimbalPitchUp",
+      "inliers": 0
+    }
+  ],
+  "network_prohibited": true,
+  "device": "cpu",
+  "torch": "2.8.0+cpu",
+  "tolerance_basis": "FP32 cross-PyTorch-version roundoff only; strict action/inlier equality; source same-environment parity also recorded"
+}

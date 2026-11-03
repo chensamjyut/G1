@@ -1,0 +1,12 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "executable": "/tmp/g1-release-venv/bin/python",
+  "isolated_venv": true,
+  "packages": {
+    "torch": "2.8.0+cpu",
+    "numpy": "1.26.4",
+    "opencv-python-headless": "4.11.0.86",
+    "Pillow": "11.2.1",
+    "PyYAML": "6.0.2"
+  }
+}

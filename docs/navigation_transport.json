@@ -1,0 +1,9 @@
+{
+  "kind": "synthetic_ROS_transport_not_simulation",
+  "passed": true,
+  "robot_execution_tested": false,
+  "path_count": 1472,
+  "nonempty_path_count": 1472,
+  "commands": 735,
+  "status_count": 135
+}

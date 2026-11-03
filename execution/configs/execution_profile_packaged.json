@@ -1,0 +1,13 @@
+{
+  "internal_execution_profile": {
+    "primitive_xy_tolerance_m": 0.025,
+    "primitive_yaw_tolerance_deg": 1.0,
+    "servo_goal_xy_m": 0.025,
+    "servo_goal_yaw_deg": 1.0
+  },
+  "internal_controller_overrides": {
+    "support_correction_gain": 0.65,
+    "support_yaw_correction_gain": 0.75
+  },
+  "source": "retained physical executor calibration; independent of deleted VA-SFT outputs"
+}

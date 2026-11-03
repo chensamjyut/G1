@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "missing": [],
+  "limits": "AST local absolute imports; external dependencies and dynamic Isaac plugins validated separately"
+}

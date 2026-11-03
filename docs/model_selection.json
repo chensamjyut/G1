@@ -1,0 +1,513 @@
+{
+  "selected": "s1_3m_r0001.pt",
+  "selection_status": "highest_observed_existing_rollout_candidate_not_independently_accepted",
+  "reason": "Round2 rollouts used r0001, highest observed GRPO rollout success and mean final cosine among retained packaged577 descendants with rollout evidence.",
+  "initial_sft": {
+    "path": "models/va_sft_577_best/checkpoint/best.pt",
+    "sha256": "cc0550846b94505012bb66ce784ac53a30783ee0829cf1300ad837259875a306",
+    "selection": "round11_low_head_replay, 577 demonstrations, weighted_parent_delta_0.125"
+  },
+  "grpo_checkpoint_sha256": "6356ea40de6fd02b6988adf751aa6f7f788b4240137ee2aedd6b2e1f95312af8",
+  "checkpoint_manifest_source_sha256": "0d304df332d67677ce1ea5a9aa5bb11941c196eaa922fe4741eb4ad3dd2a183e",
+  "resolved_config_source_sha256": "6d802c0be402c5d40648d29dda0cd8a9b3b5f4c5d908f67aa853430649582ff2",
+  "rounds": [
+    {
+      "round": 1,
+      "count": 20,
+      "rollout_policy_versions": [
+        "weights_cc0550846b945050"
+      ],
+      "mean_final_similarity": 0.5521963074803352,
+      "min_final_similarity": 0.16690951585769653,
+      "max_final_similarity": 0.9059776663780212,
+      "success_rate": 0.1,
+      "collision_rate": 0.2,
+      "episodes": [
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g000_m00/episode.json",
+          "sha256": "c50ac897b0a6b129d7b250f1bfc7887e3ce8d4174f3f5f859c86bc8c5e7caf33",
+          "episode_id": "s1_3m_r0001_train_g000_m00",
+          "final_similarity": 0.7387025952339172,
+          "success": false,
+          "collision": false,
+          "steps": 17
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g000_m01/episode.json",
+          "sha256": "37482356d38e066b3c9a51928c876c03684006f94213d1fefbc918a8f800d7ef",
+          "episode_id": "s1_3m_r0001_train_g000_m01",
+          "final_similarity": 0.31577903032302856,
+          "success": false,
+          "collision": false,
+          "steps": 16
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g000_m02/episode.json",
+          "sha256": "562ff964f336c8d07af5e1dfcc241d099040ef34c2818a80b482296f4644d88d",
+          "episode_id": "s1_3m_r0001_train_g000_m02",
+          "final_similarity": 0.3630034625530243,
+          "success": false,
+          "collision": false,
+          "steps": 50
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g000_m03/episode.json",
+          "sha256": "7046cebb4758d1e1ce60c5a0bb118f96b647ee7af20f50df0cfe003807b25ba1",
+          "episode_id": "s1_3m_r0001_train_g000_m03",
+          "final_similarity": 0.4133446514606476,
+          "success": false,
+          "collision": false,
+          "steps": 6
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g001_m00/episode.json",
+          "sha256": "b9753bd50cb6cad6a4d63824faa4fb6dd71dfe7293008a8ac920532a46df0718",
+          "episode_id": "s1_3m_r0001_train_g001_m00",
+          "final_similarity": 0.1727220118045807,
+          "success": false,
+          "collision": false,
+          "steps": 11
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g001_m01/episode.json",
+          "sha256": "6300a14851e578c3cc7b712c49e9d60a5edc3c36b755d7a529d49aa70909dffc",
+          "episode_id": "s1_3m_r0001_train_g001_m01",
+          "final_similarity": 0.22644689679145813,
+          "success": false,
+          "collision": false,
+          "steps": 22
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g001_m02/episode.json",
+          "sha256": "5fe9a8b78441ac010f255d899b5215ea3fb06dee1ed5453f87f7eced87dad859",
+          "episode_id": "s1_3m_r0001_train_g001_m02",
+          "final_similarity": 0.16690951585769653,
+          "success": false,
+          "collision": false,
+          "steps": 6
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g001_m03/episode.json",
+          "sha256": "2af5ce29f5a4adbf2fadf6ab86a6110f5fab1904b1d2a92eb6f603e69a038884",
+          "episode_id": "s1_3m_r0001_train_g001_m03",
+          "final_similarity": 0.9059776663780212,
+          "success": false,
+          "collision": false,
+          "steps": 50
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g002_m00/episode.json",
+          "sha256": "7b6ab5adcefa567f191f445ea378db2d89a602ec48f3756b2d0a6c3793564ef0",
+          "episode_id": "s1_3m_r0001_train_g002_m00",
+          "final_similarity": 0.7237987518310547,
+          "success": false,
+          "collision": false,
+          "steps": 19
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g002_m01/episode.json",
+          "sha256": "6fb623827a5c36d32351afb4fe0b66da927512ef9216ff87917ffddf56051caa",
+          "episode_id": "s1_3m_r0001_train_g002_m01",
+          "final_similarity": 0.66064453125,
+          "success": false,
+          "collision": false,
+          "steps": 13
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g002_m02/episode.json",
+          "sha256": "4f9273e2bed4a22b8a485d7d5859ceba34812df0ff288907a293afb518b6b9fb",
+          "episode_id": "s1_3m_r0001_train_g002_m02",
+          "final_similarity": 0.8778872489929199,
+          "success": true,
+          "collision": false,
+          "steps": 26
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g002_m03/episode.json",
+          "sha256": "6b35efea71261c8123c7437104ed92be3f0c6c4d6515b8bd660ffab6f4f40d8f",
+          "episode_id": "s1_3m_r0001_train_g002_m03",
+          "final_similarity": 0.8332219123840332,
+          "success": true,
+          "collision": false,
+          "steps": 39
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g003_m00/episode.json",
+          "sha256": "71de585cbb47aac64a0f417e2810fed400da12b21e419db5bf1e51f7fec23ce7",
+          "episode_id": "s1_3m_r0001_train_g003_m00",
+          "final_similarity": 0.1696733683347702,
+          "success": false,
+          "collision": true,
+          "steps": 6
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g003_m01/episode.json",
+          "sha256": "5cb2e0f6f4b27f0779fcaa226e5e0681463030b08a0ea2f4e7788dec76d9eb4c",
+          "episode_id": "s1_3m_r0001_train_g003_m01",
+          "final_similarity": 0.1707216054201126,
+          "success": false,
+          "collision": true,
+          "steps": 5
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g003_m02/episode.json",
+          "sha256": "563ec0ad040f3c27fc5387b0f0258f3a461ca8c96f850be027a9b066ff6277fa",
+          "episode_id": "s1_3m_r0001_train_g003_m02",
+          "final_similarity": 0.4970165193080902,
+          "success": false,
+          "collision": false,
+          "steps": 50
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g003_m03/episode.json",
+          "sha256": "001522eca2abd82dfb67aee575aa95cb657b4fab99090b01c1c747aa6f395f7e",
+          "episode_id": "s1_3m_r0001_train_g003_m03",
+          "final_similarity": 0.7626021504402161,
+          "success": false,
+          "collision": false,
+          "steps": 50
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g004_m00/episode.json",
+          "sha256": "29c6ceef901f18fd951d7150e1bbf7314ca100e74dc4d9288adfee31175ddf4e",
+          "episode_id": "s1_3m_r0001_train_g004_m00",
+          "final_similarity": 0.7388478517532349,
+          "success": false,
+          "collision": false,
+          "steps": 36
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g004_m01/episode.json",
+          "sha256": "c339f6d9239e3de5052e610f817a35e0295ef8905ca29dc18d0e84e044ccce8e",
+          "episode_id": "s1_3m_r0001_train_g004_m01",
+          "final_similarity": 0.893442690372467,
+          "success": false,
+          "collision": false,
+          "steps": 43
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g004_m02/episode.json",
+          "sha256": "dff2e4fac873a6a952212dd9ba52b6683ce4987a3222a4c9e15c5e2274e30c32",
+          "episode_id": "s1_3m_r0001_train_g004_m02",
+          "final_similarity": 0.7163853645324707,
+          "success": false,
+          "collision": true,
+          "steps": 16
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0001_train_g004_m03/episode.json",
+          "sha256": "1da7e65d8d3f134a3b3432629d44caefd74e1b6455ac8dfa8fb8b4f0387d36d1",
+          "episode_id": "s1_3m_r0001_train_g004_m03",
+          "final_similarity": 0.6967983245849609,
+          "success": false,
+          "collision": true,
+          "steps": 24
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "count": 20,
+      "rollout_policy_versions": [
+        "s1_3m_r0001"
+      ],
+      "mean_final_similarity": 0.6070369265973568,
+      "min_final_similarity": 0.1530778557062149,
+      "max_final_similarity": 0.8950054049491882,
+      "success_rate": 0.35,
+      "collision_rate": 0.0,
+      "episodes": [
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g000_m00/episode.json",
+          "sha256": "661b192e17157ceaa6fc38b1a18c7100ea6581d51ad56c13d353e0829e2e0fe7",
+          "episode_id": "s1_3m_r0002_train_g000_m00",
+          "final_similarity": 0.8950054049491882,
+          "success": true,
+          "collision": false,
+          "steps": 18
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g000_m01/episode.json",
+          "sha256": "7d954ff86d2590e12827bba2c01e8eb464350ed10de288e12296e64f25343dcb",
+          "episode_id": "s1_3m_r0002_train_g000_m01",
+          "final_similarity": 0.8895702362060547,
+          "success": true,
+          "collision": false,
+          "steps": 35
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g000_m02/episode.json",
+          "sha256": "25e01423d251a8232658f290843e8650a2abe797a8dfbadbbb326f0c2fbbb79b",
+          "episode_id": "s1_3m_r0002_train_g000_m02",
+          "final_similarity": 0.881454348564148,
+          "success": true,
+          "collision": false,
+          "steps": 30
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g000_m03/episode.json",
+          "sha256": "b108e503152492811ac215011267f030d6aefb8aa07c90fae5cd3145be66fda3",
+          "episode_id": "s1_3m_r0002_train_g000_m03",
+          "final_similarity": 0.839583694934845,
+          "success": true,
+          "collision": false,
+          "steps": 16
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g001_m00/episode.json",
+          "sha256": "d2493e7deea975b9291fe0e4859ac10a53c0c6b487f8d363cc7448e3eb3032d7",
+          "episode_id": "s1_3m_r0002_train_g001_m00",
+          "final_similarity": 0.16236646473407745,
+          "success": false,
+          "collision": false,
+          "steps": 7
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g001_m01/episode.json",
+          "sha256": "2c32ba61012e0c5b4e3692fb184442589287c4ebd2593cec45bbe3f3b06bc823",
+          "episode_id": "s1_3m_r0002_train_g001_m01",
+          "final_similarity": 0.1530778557062149,
+          "success": false,
+          "collision": false,
+          "steps": 8
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g001_m02/episode.json",
+          "sha256": "1e35a24f12e8095f3a9497c552296aef6519e40d54a292401547fbfb46e54b52",
+          "episode_id": "s1_3m_r0002_train_g001_m02",
+          "final_similarity": 0.19810456037521362,
+          "success": false,
+          "collision": false,
+          "steps": 33
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g001_m03/episode.json",
+          "sha256": "30981b9f381d4d39baa82675423a862acef47c7d2a7cebc5c4d5ffe816a44306",
+          "episode_id": "s1_3m_r0002_train_g001_m03",
+          "final_similarity": 0.18732629716396332,
+          "success": false,
+          "collision": false,
+          "steps": 6
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g002_m00/episode.json",
+          "sha256": "cdfb8ed7a5928b09ed3da4a10f67daf370aacee0f9754b369a80ce635b581c3d",
+          "episode_id": "s1_3m_r0002_train_g002_m00",
+          "final_similarity": 0.6979794502258301,
+          "success": false,
+          "collision": false,
+          "steps": 13
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g002_m01/episode.json",
+          "sha256": "2b7fc23ec33ae367ea643220ae2b3dc382495ba2d6830768c88e49597be14795",
+          "episode_id": "s1_3m_r0002_train_g002_m01",
+          "final_similarity": 0.7641174793243408,
+          "success": false,
+          "collision": false,
+          "steps": 33
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g002_m02/episode.json",
+          "sha256": "d6bcbb465895cc429cdfce1cac8ac4638cc98f0eb51b586e4f9294d3291605f6",
+          "episode_id": "s1_3m_r0002_train_g002_m02",
+          "final_similarity": 0.8272018432617188,
+          "success": true,
+          "collision": false,
+          "steps": 6
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g002_m03/episode.json",
+          "sha256": "5b5acc0cd0aa0d24bd604416e54cc093107405af916c50419ebf27eaf8ee254e",
+          "episode_id": "s1_3m_r0002_train_g002_m03",
+          "final_similarity": 0.8062989711761475,
+          "success": true,
+          "collision": false,
+          "steps": 7
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g003_m00/episode.json",
+          "sha256": "cc3d82dee8d1f979a77d2e21bd63b6e102aae4001647375a02e6354c68925da9",
+          "episode_id": "s1_3m_r0002_train_g003_m00",
+          "final_similarity": 0.5771161317825317,
+          "success": false,
+          "collision": false,
+          "steps": 29
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g003_m01/episode.json",
+          "sha256": "8fa96cf0c8aa256e5af858846034d237d79b4c6280f65dd7336b8800a6ca7d2d",
+          "episode_id": "s1_3m_r0002_train_g003_m01",
+          "final_similarity": 0.5630511045455933,
+          "success": false,
+          "collision": false,
+          "steps": 17
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g003_m02/episode.json",
+          "sha256": "90a9418ac8f4ea204fcc7495255eb3c13129ad3eea1c43558261f0f4ebe2325e",
+          "episode_id": "s1_3m_r0002_train_g003_m02",
+          "final_similarity": 0.43138381838798523,
+          "success": false,
+          "collision": false,
+          "steps": 24
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g003_m03/episode.json",
+          "sha256": "178b78629412d192b30306be4c580863308bd10916db00a71429dece4a6a57d1",
+          "episode_id": "s1_3m_r0002_train_g003_m03",
+          "final_similarity": 0.5755757093429565,
+          "success": false,
+          "collision": false,
+          "steps": 8
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g004_m00/episode.json",
+          "sha256": "23b15b88d271df571f6f3f465bc47441e1122ecfad4420712ff8864ecb968f76",
+          "episode_id": "s1_3m_r0002_train_g004_m00",
+          "final_similarity": 0.8133360147476196,
+          "success": false,
+          "collision": false,
+          "steps": 50
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g004_m01/episode.json",
+          "sha256": "eabfeb697c5163a538af2f40e6720b8b185dd2c2db8522b81d40e2d276bea892",
+          "episode_id": "s1_3m_r0002_train_g004_m01",
+          "final_similarity": 0.7455436587333679,
+          "success": false,
+          "collision": false,
+          "steps": 19
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g004_m02/episode.json",
+          "sha256": "ffb7b7b9219c153272a896b03c6ea94bb08c94e261d1783f725d97ec6dbe5056",
+          "episode_id": "s1_3m_r0002_train_g004_m02",
+          "final_similarity": 0.3255206346511841,
+          "success": false,
+          "collision": false,
+          "steps": 2
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0002_train_g004_m03/episode.json",
+          "sha256": "759392ff6d7858b7815649a6fd7bf2155f6c1107a690acc23501021ecf45e928",
+          "episode_id": "s1_3m_r0002_train_g004_m03",
+          "final_similarity": 0.8071248531341553,
+          "success": true,
+          "collision": false,
+          "steps": 22
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "count": 10,
+      "rollout_policy_versions": [
+        "s1_3m_r0002"
+      ],
+      "mean_final_similarity": 0.527229118347168,
+      "min_final_similarity": 0.3867013156414032,
+      "max_final_similarity": 0.7414348125457764,
+      "success_rate": 0.0,
+      "collision_rate": 0.0,
+      "episodes": [
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g000_m00/episode.json",
+          "sha256": "a9265492bae747b97325d6aead84d5512eb128b1ba563fe4020534159378ed8b",
+          "episode_id": "s1_3m_r0003_train_g000_m00",
+          "final_similarity": 0.6189153790473938,
+          "success": false,
+          "collision": false,
+          "steps": 35
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g000_m01/episode.json",
+          "sha256": "4d1918b48dd20167d77b1b3c869e728625328e09b487398551c6255c0a397294",
+          "episode_id": "s1_3m_r0003_train_g000_m01",
+          "final_similarity": 0.515410304069519,
+          "success": false,
+          "collision": false,
+          "steps": 4
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g000_m02/episode.json",
+          "sha256": "8c7b53f9b1d3009f2b19248709e2ff919d3e8ce9fd918f4c37695e1d09865c89",
+          "episode_id": "s1_3m_r0003_train_g000_m02",
+          "final_similarity": 0.5565141439437866,
+          "success": false,
+          "collision": false,
+          "steps": 11
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g000_m03/episode.json",
+          "sha256": "7d33281c19b744c37d6ce5b3e2551f2f17e3246aec5c54863d29483aaed6a803",
+          "episode_id": "s1_3m_r0003_train_g000_m03",
+          "final_similarity": 0.5869351029396057,
+          "success": false,
+          "collision": false,
+          "steps": 23
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g001_m00/episode.json",
+          "sha256": "5f95d9e0b4662ae568722a163e0e87c38c9a62d86dbb0b6cb0319ee8dc715a94",
+          "episode_id": "s1_3m_r0003_train_g001_m00",
+          "final_similarity": 0.3867013156414032,
+          "success": false,
+          "collision": false,
+          "steps": 18
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g001_m01/episode.json",
+          "sha256": "a88ac6e44727a84a6cb6c2306296af4a4cd19ad201838282744b0b1a082e1bd6",
+          "episode_id": "s1_3m_r0003_train_g001_m01",
+          "final_similarity": 0.3938002288341522,
+          "success": false,
+          "collision": false,
+          "steps": 1
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g001_m02/episode.json",
+          "sha256": "9e8d4471a4132ea7e5005298d26d576569d227e76785ef15295a75ea0ef3a716",
+          "episode_id": "s1_3m_r0003_train_g001_m02",
+          "final_similarity": 0.42219918966293335,
+          "success": false,
+          "collision": false,
+          "steps": 14
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g001_m03/episode.json",
+          "sha256": "ee0daf82df7cb6d51c75e65fc422de5aa173123812581620fce539c2bfc1f1dd",
+          "episode_id": "s1_3m_r0003_train_g001_m03",
+          "final_similarity": 0.4087955355644226,
+          "success": false,
+          "collision": false,
+          "steps": 32
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g002_m00/episode.json",
+          "sha256": "7ce9017eb19e520ed002b2c27422d8ed01a779050a7e909124cbad910d75a754",
+          "episode_id": "s1_3m_r0003_train_g002_m00",
+          "final_similarity": 0.7414348125457764,
+          "success": false,
+          "collision": false,
+          "steps": 38
+        },
+        {
+          "path": "outputs/grpo_0_3m_from_va_sft_577_best/rollouts/s1_3m_r0003_train_g002_m01/episode.json",
+          "sha256": "940fbfdcbd5a6b1513e9954bbf0fcee79fd6418a26ebedab897a34b26ffc557d",
+          "episode_id": "s1_3m_r0003_train_g002_m01",
+          "final_similarity": 0.6415851712226868,
+          "success": false,
+          "collision": false,
+          "steps": 9
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Training rollouts; distinct targets and starts per round; not paired independent evaluation.",
+    "Historical body-yaw semantics remapped to gimbal yaw by explicit user request; no inherited performance guarantee.",
+    "Ongoing 0-2m training excluded by user instruction.",
+    "r0003 output has no subsequent measured rollout; do not attribute r0003 rollout statistics to it."
+  ]
+}

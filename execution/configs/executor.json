@@ -1,0 +1,23 @@
+{
+  "translation_step_m": 0.3,
+  "yaw_step_deg": 36.86989764584402,
+  "pitch_step_deg": 5.0,
+  "pitch_tolerance_deg": 0.25,
+  "primitive_xy_tolerance_m": 0.025,
+  "primitive_yaw_tolerance_deg": 1.0,
+  "max_primitive_travel_m": 0.45,
+  "locomotion_height_m": 0.7,
+  "support_rest_s": 3.0,
+  "support_brake_xy_m": 0.015,
+  "servo_goal_xy_m": 0.025,
+  "servo_goal_yaw_deg": 1.0,
+  "support_max_seconds": 65.0,
+  "support_max_corrections": 6,
+  "support_correction_gain": 0.65,
+  "support_brake_hold_s": 0.8,
+  "support_height_ramp_s": 1.2,
+  "support_max_speed_m_s": 0.35,
+  "support_approach_gain_s_inv": 1.5,
+  "support_approach_min_cap_m_s": 0.15,
+  "support_yaw_correction_gain": 0.75
+}

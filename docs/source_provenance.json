@@ -1,0 +1,688 @@
+[
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/policies/__init__.py",
+    "source_sha256": "f0792178b00b6416e3417ecc8e2b77af0b132918943d2a77dc0f5added4cb91d",
+    "deployment": "src/g1_active_view/policies/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "f0792178b00b6416e3417ecc8e2b77af0b132918943d2a77dc0f5added4cb91d"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/policies/visual_stop_residual.py",
+    "source_sha256": "3cbd7188ebeda5e4ffecc3303b7265262ab2cfdf507891444c5f6c312f3a5f19",
+    "deployment": "src/g1_active_view/policies/visual_stop_residual.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "3cbd7188ebeda5e4ffecc3303b7265262ab2cfdf507891444c5f6c312f3a5f19"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/vision/__init__.py",
+    "source_sha256": "1a06bea1b4befb3f0bc06ca0ef8a1830a55e1fbc126bee04f4ac72ac3a58b348",
+    "deployment": "src/g1_active_view/vision/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "1a06bea1b4befb3f0bc06ca0ef8a1830a55e1fbc126bee04f4ac72ac3a58b348"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/vision/dinov2_encoder.py",
+    "source_sha256": "7bf2889954eda0156860d746b2c40765f17121908a0e839e974ac8a3de8158c6",
+    "deployment": "src/g1_active_view/vision/dinov2_encoder.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "7bf2889954eda0156860d746b2c40765f17121908a0e839e974ac8a3de8158c6"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/vision/sift_geometry.py",
+    "source_sha256": "3d0aea000d46fa9cd35b0e13c250017f9291d5a97a842607a964091c86ae18cf",
+    "deployment": "src/g1_active_view/vision/sift_geometry.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "3d0aea000d46fa9cd35b0e13c250017f9291d5a97a842607a964091c86ae18cf"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/actions.py",
+    "source_sha256": "6a7caff33036910107a9fcdbda03b4a74c8610e1763d54cb036f3b76d5cdb654",
+    "deployment": "src/g1_active_view/actions.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "6a7caff33036910107a9fcdbda03b4a74c8610e1763d54cb036f3b76d5cdb654"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/src/g1_active_view/__init__.py",
+    "source_sha256": "4d4373808cd20107802bb612d2fe8264f22b3338dce434c0f26ea901069c2162",
+    "deployment": "src/g1_active_view/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "4d4373808cd20107802bb612d2fe8264f22b3338dce434c0f26ea901069c2162"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/__init__.py",
+    "source_sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+    "deployment": "third_party/dinov2/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/hub/__init__.py",
+    "source_sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+    "deployment": "third_party/dinov2/hub/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/hub/backbones.py",
+    "source_sha256": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+    "deployment": "third_party/dinov2/hub/backbones.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/hub/utils.py",
+    "source_sha256": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+    "deployment": "third_party/dinov2/hub/utils.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/models/__init__.py",
+    "source_sha256": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+    "deployment": "third_party/dinov2/models/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/models/vision_transformer.py",
+    "source_sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+    "deployment": "third_party/dinov2/models/vision_transformer.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/__init__.py",
+    "source_sha256": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+    "deployment": "third_party/dinov2/layers/__init__.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/swiglu_ffn.py",
+    "source_sha256": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+    "deployment": "third_party/dinov2/layers/swiglu_ffn.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/mlp.py",
+    "source_sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+    "deployment": "third_party/dinov2/layers/mlp.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/drop_path.py",
+    "source_sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+    "deployment": "third_party/dinov2/layers/drop_path.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/patch_embed.py",
+    "source_sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+    "deployment": "third_party/dinov2/layers/patch_embed.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/attention.py",
+    "source_sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+    "deployment": "third_party/dinov2/layers/attention.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/layer_scale.py",
+    "source_sha256": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+    "deployment": "third_party/dinov2/layers/layer_scale.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/block.py",
+    "source_sha256": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+    "deployment": "third_party/dinov2/layers/block.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/dinov2/layers/dino_head.py",
+    "source_sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+    "deployment": "third_party/dinov2/layers/dino_head.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/action_semantics.py",
+    "source_sha256": "f89e56079680739d11f9ebac5eaeef9fa56c3fba251be2aa9ba3f775d4536e68",
+    "deployment": "src/planner/action_semantics.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "f89e56079680739d11f9ebac5eaeef9fa56c3fba251be2aa9ba3f775d4536e68"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/gimbal_motion.py",
+    "source_sha256": "46a84473cf8e30bf9b1559795176040551e878adfb2847cd9c377f83f7017153",
+    "deployment": "src/planner/gimbal_motion.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "46a84473cf8e30bf9b1559795176040551e878adfb2847cd9c377f83f7017153"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/live_camera.py",
+    "source_sha256": "f9c11922fd5f9b2d7cc1111bbcf0d2f32126965ec97eb00fea7a332e339dceae",
+    "deployment": "src/planner/live_camera.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "f9c11922fd5f9b2d7cc1111bbcf0d2f32126965ec97eb00fea7a332e339dceae"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/number_color_reader.py",
+    "source_sha256": "2322a04507e08306b732be4c2122fc8aaca6a7cba2e65bfef1f4d732ec029179",
+    "deployment": "src/planner/number_color_reader.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "2322a04507e08306b732be4c2122fc8aaca6a7cba2e65bfef1f4d732ec029179"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/live_reader_worker.py",
+    "source_sha256": "d40ff8b2469cb858aafc975c51b648816232613d936f1129de33804fac07a72e",
+    "deployment": "src/planner/live_reader_worker.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "d40ff8b2469cb858aafc975c51b648816232613d936f1129de33804fac07a72e"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/vlm_support.py",
+    "source_sha256": "336922264b5739468bd8f02d490f5f7ce19cb93aa03096cd56d43cf2af5ef3ba",
+    "deployment": "src/planner/vlm_support.py",
+    "change": "AST extraction: rgb_data_url,response_text",
+    "deployment_sha256": "8e5c9d79451273817de468c51a1ef1b88e494c9ea21b2f05fee88d169f331676"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/live_single_point.py",
+    "source_sha256": "3acfba65823045056641fc957ce8880ceafcc1149c26c251a0736f4edf5218ed",
+    "deployment": "src/planner/live_single_point.py",
+    "change": "Explicit resources; extracted OfflinePolicy; no UI/probe; budget failure uses no historical-frame reader",
+    "deployment_sha256": "b5aea850c04ad92bf74f48fd5a579b7fe15dfbbeb4bf6a0f54c864afbbbddc1e"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/live_grpo_binding.py",
+    "source_sha256": "14581b7df5fa857ddcd6f109ba195f779d03e62a3e9cbec83bf64d873684c6a2",
+    "deployment": "src/planner/live_grpo_binding.py",
+    "change": "Local runtime imports; view-phase body-yaw command forced zero; gimbal mapping preserved",
+    "deployment_sha256": "6d43eb7789ae1739f06efefe92d7fe28b725b508c75dcd2e8d1b7dd6f8c925ea"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/src/gimbal_tvr/body_xy.py",
+    "source_sha256": "14532474ddb45f7f9203ba2760e2ea12cbab05c5573553d24a394cc2609501d7",
+    "deployment": "src/gimbal_tvr/body_xy.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "14532474ddb45f7f9203ba2760e2ea12cbab05c5573553d24a394cc2609501d7"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/src/gimbal_tvr/action_space.py",
+    "source_sha256": "2a8e93e4b8a4a3df111c946f80d79f7745d2306fe809e3cd7942110d72503510",
+    "deployment": "src/gimbal_tvr/action_space.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "2a8e93e4b8a4a3df111c946f80d79f7745d2306fe809e3cd7942110d72503510"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/src/gimbal_tvr/joint_controller.py",
+    "source_sha256": "d5fe14b499a00445ed3f7b530cdb4aa7cdc04df557badeeb77044e4f0ed96600",
+    "deployment": "src/gimbal_tvr/joint_controller.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "d5fe14b499a00445ed3f7b530cdb4aa7cdc04df557badeeb77044e4f0ed96600"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/src/gimbal_tvr/body_xy_runtime.py",
+    "source_sha256": "5d7a377573ca56c4a7a2fe6026d3141d0bc037092d63f3505fbc3388910de3bf",
+    "deployment": "src/gimbal_tvr/body_xy_runtime.py",
+    "change": "AST extraction: load_config,_rpy_from_quaternion,BodyXYRuntime",
+    "deployment_sha256": "31a1c61d84ef838a9f9b94f3ac6148b350e103242ec7cc72e4dcba5b9913097c"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/scripts/collect_local_expert_batch.py",
+    "source_sha256": "38b12afb2715e941e0982a216699a77e71742b98133253ea8c0057fe009e130b",
+    "deployment": "src/g1_execution/state.py",
+    "change": "AST extraction: Executor",
+    "deployment_sha256": "1a355d147e1c8959d5f7cdece956713309f9072815b1b5f0e2b7010d1893817b"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/scripts/expert_review_metrics.py",
+    "source_sha256": "9781a773dfb469f28a07a53aa5a6b3874be998e6e98a0fa0d04733f9387d7f65",
+    "deployment": "src/g1_execution/angles.py",
+    "change": "AST extraction: angle_delta",
+    "deployment_sha256": "d16efcc262ec3ba3a073d0cfa8a92727488490ef07854e894efa5b26def33ebe"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/scripts/physical_expert_executor.py",
+    "source_sha256": "05352901119c3a301b1fc3f099c319cff0c9f854728a50016886e5dbd8dc04bb",
+    "deployment": "src/g1_execution/servo.py",
+    "change": "AST extraction: PhysicalExpertExecutor,FootReferencedExpertExecutor",
+    "deployment_sha256": "32105683d14175170a41c5e0d09d6a482b9ade24cfae9607ff09d6ccb7830eb6"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/scripts/dedicated_sim_validation.py",
+    "source_sha256": "57e737a25908071835c30118542b5cc11cea697b5feb87c8dd2d0d9759b0ab08",
+    "deployment": "src/g1_execution/endpoint.py",
+    "change": "AST extraction: endpoint,PolicyExecutor",
+    "deployment_sha256": "ca182cb47d558212af62ff2e645a94b2eecf284b37b779c4b7af8e860418cef6"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/scripts/capture_target_candidates.py",
+    "source_sha256": "40e64c13a4f290f61babfa060ceb8dfe6aba98b1b86c75cdae25d6d43f558288",
+    "deployment": "src/g1_execution/ground.py",
+    "change": "AST extraction: Ground",
+    "deployment_sha256": "cd7bbdcb16da4435bba01efd4820a4c2f4d3b529d4d79a32de84576339e78c59"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/scripts/shared_relative_executor.py",
+    "source_sha256": "1d111b15f35c74f01ef325bfc6cc1abd6cf7f03538352579daa3491195883ebf",
+    "deployment": "src/g1_execution/shared_relative_executor.py",
+    "change": "Runtime-only imports and explicit config root",
+    "deployment_sha256": "ff2e5a76e1e8eb19790e8cf55864d33b2350be5d12da31304f3ab40d2abb0993"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/configs/g1_gimbal_4dof_body_xy.yaml",
+    "source_sha256": "d63b2d6ba03bb17483f4d40dd757fa8d6d3de2c1ff198f88f098237ae1834b25",
+    "deployment": "execution/configs/g1_gimbal_4dof_body_xy.yaml",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "11f95ff72ba36702791f905f0aa23f4f4e26133d05d1a668a72045d21a33d9b8"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/configs/robot_info.yaml",
+    "source_sha256": "0d9aedb0649f80aebe8730ad2af7523efe42e1e41fbfd48b0853bcd7f366ef64",
+    "deployment": "execution/configs/robot_info.yaml",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "ba26d3c7e52723e344336b801b31bad0445eed4d414e9c4bc0746377aa538a3d"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/configs/execution_profile_packaged.json",
+    "source_sha256": "931e3497c3362914b2d90e6a4252f83b42cb80ae1b8681a1c64d250c773b9a33",
+    "deployment": "execution/configs/execution_profile_packaged.json",
+    "change": "byte-for-byte",
+    "deployment_sha256": "931e3497c3362914b2d90e6a4252f83b42cb80ae1b8681a1c64d250c773b9a33"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/isaac_navigation_bridge.py",
+    "source_sha256": "695c00ff9663bf0b32ee5e477e85f25c9193c28ddb43a5780f2966ef294a0508",
+    "deployment": "sim_runtime/navigation/isaac_navigation_bridge.py",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "50377a10e83ffd7cd4d687c686041d281f04fd47540a1d383ad4d458df3261ea"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/ros2_navigation_bridge.py",
+    "source_sha256": "dbc4b0996c648a233a879a5a0ac5e857367bf0aa9c60e196ee407c4e2c0da94f",
+    "deployment": "sim_runtime/navigation/ros2_navigation_bridge.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "dbc4b0996c648a233a879a5a0ac5e857367bf0aa9c60e196ee407c4e2c0da94f"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/simple_lidar_slam.py",
+    "source_sha256": "ca119cacb329d59f990ff1c5650980a5dee73b655da974e9522ce84a737e17ad",
+    "deployment": "sim_runtime/navigation/simple_lidar_slam.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "ca119cacb329d59f990ff1c5650980a5dee73b655da974e9522ce84a737e17ad"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/package.xml",
+    "source_sha256": "f525dca0137c2931750a1e6069c2b7d5e8f1572ad595d2bbcb8f6ad8f0dd79d8",
+    "deployment": "sim_runtime/navigation/src/serial/package.xml",
+    "change": "byte-for-byte",
+    "deployment_sha256": "f525dca0137c2931750a1e6069c2b7d5e8f1572ad595d2bbcb8f6ad8f0dd79d8"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/CMakeLists.txt",
+    "source_sha256": "e3407c42f7904e001f6ca2c8904e24a9623424c53144f8881ec134c9ad77ccd8",
+    "deployment": "sim_runtime/navigation/src/serial/CMakeLists.txt",
+    "change": "byte-for-byte",
+    "deployment_sha256": "e3407c42f7904e001f6ca2c8904e24a9623424c53144f8881ec134c9ad77ccd8"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/LICENSE",
+    "source_sha256": "bb12b3c857da4804ccd00816a1daae298e75d314012346bb1a8995a496e2f9d0",
+    "deployment": "sim_runtime/navigation/src/serial/LICENSE",
+    "change": "byte-for-byte",
+    "deployment_sha256": "bb12b3c857da4804ccd00816a1daae298e75d314012346bb1a8995a496e2f9d0"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/src/serial.cc",
+    "source_sha256": "7702b646a57e8257db057272773f6a8e54b396a7d09b3d98a01040aa1cee805c",
+    "deployment": "sim_runtime/navigation/src/serial/src/serial.cc",
+    "change": "byte-for-byte",
+    "deployment_sha256": "7702b646a57e8257db057272773f6a8e54b396a7d09b3d98a01040aa1cee805c"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/src/impl/unix.cc",
+    "source_sha256": "afdc2b157831400116c45ed879f0eaaad450925ee0a15a2f033e362baecf11d2",
+    "deployment": "sim_runtime/navigation/src/serial/src/impl/unix.cc",
+    "change": "byte-for-byte",
+    "deployment_sha256": "afdc2b157831400116c45ed879f0eaaad450925ee0a15a2f033e362baecf11d2"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/src/impl/list_ports/list_ports_linux.cc",
+    "source_sha256": "f67417b8ba5fd2718f9a14d705f4f939132700f0a43ae647e9c58559681b4694",
+    "deployment": "sim_runtime/navigation/src/serial/src/impl/list_ports/list_ports_linux.cc",
+    "change": "byte-for-byte",
+    "deployment_sha256": "f67417b8ba5fd2718f9a14d705f4f939132700f0a43ae647e9c58559681b4694"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/include/serial/serial.h",
+    "source_sha256": "f4dcb008056f41fbb80357da817959e8cf5e2f6d04fb79a416b4fedd68a8a0d7",
+    "deployment": "sim_runtime/navigation/src/serial/include/serial/serial.h",
+    "change": "byte-for-byte",
+    "deployment_sha256": "f4dcb008056f41fbb80357da817959e8cf5e2f6d04fb79a416b4fedd68a8a0d7"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/include/serial/v8stdint.h",
+    "source_sha256": "d1155ad61ee6583c90ce3abb174239fbb677627e8220fb8518c8d5e4d3d16e5d",
+    "deployment": "sim_runtime/navigation/src/serial/include/serial/v8stdint.h",
+    "change": "byte-for-byte",
+    "deployment_sha256": "d1155ad61ee6583c90ce3abb174239fbb677627e8220fb8518c8d5e4d3d16e5d"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/serial/include/serial/impl/unix.h",
+    "source_sha256": "b5fb6fe5dc66aa262c4fcd602c677938bf9a65ddc2010c7b022c7aade1f36bc6",
+    "deployment": "sim_runtime/navigation/src/serial/include/serial/impl/unix.h",
+    "change": "byte-for-byte",
+    "deployment_sha256": "b5fb6fe5dc66aa262c4fcd602c677938bf9a65ddc2010c7b022c7aade1f36bc6"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/package.xml",
+    "source_sha256": "d003576cb6a7b5455386e56b4aae3e69bf223f7361f008d3950dcf63d440baa8",
+    "deployment": "sim_runtime/navigation/src/local_planner/package.xml",
+    "change": "byte-for-byte",
+    "deployment_sha256": "d003576cb6a7b5455386e56b4aae3e69bf223f7361f008d3950dcf63d440baa8"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/CMakeLists.txt",
+    "source_sha256": "eea0a1a70dbe8636888d613ed618a2b54e98b2fd7245daaa0c0d1a8112440395",
+    "deployment": "sim_runtime/navigation/src/local_planner/CMakeLists.txt",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "7cb12e7b07a5fad5834a81721f04bbec16ae732f8212dbf2a9acda1c9ab168a2"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/launch/sim_navigation.launch.py",
+    "source_sha256": "0ed65589e08e4d722684a1f1cd4780a7a18eb5d0fd824a654cc5dcf7e28d3a17",
+    "deployment": "sim_runtime/navigation/src/local_planner/launch/sim_navigation.launch.py",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "4ab9b863008e130a0ae6364fefb21a7bd92e5d6744916c259f00d574ef22870e"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/paths/pathList.ply",
+    "source_sha256": "115bd9b0f8e950779b327ea20438deac2cb7b0967cade33da40c4552a28aaf7b",
+    "deployment": "sim_runtime/navigation/src/local_planner/paths/pathList.ply",
+    "change": "byte-for-byte",
+    "deployment_sha256": "115bd9b0f8e950779b327ea20438deac2cb7b0967cade33da40c4552a28aaf7b"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/paths/paths.ply",
+    "source_sha256": "262ad9308e269454a50f45baa2e7030d86ed88c32db73c679cee4973cd70a991",
+    "deployment": "sim_runtime/navigation/src/local_planner/paths/paths.ply",
+    "change": "byte-for-byte",
+    "deployment_sha256": "262ad9308e269454a50f45baa2e7030d86ed88c32db73c679cee4973cd70a991"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/paths/correspondences.txt",
+    "source_sha256": "8d2e1b6a628608dc167c8b3326b9c8478569d93a68b31b1a602406c34cb5a47e",
+    "deployment": "sim_runtime/navigation/src/local_planner/paths/correspondences.txt",
+    "change": "byte-for-byte",
+    "deployment_sha256": "8d2e1b6a628608dc167c8b3326b9c8478569d93a68b31b1a602406c34cb5a47e"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/paths/startPaths.ply",
+    "source_sha256": "5be6026aa9a2eb028d0a5829638304a95b2674265efacb35975363d740b0318a",
+    "deployment": "sim_runtime/navigation/src/local_planner/paths/startPaths.ply",
+    "change": "byte-for-byte",
+    "deployment_sha256": "5be6026aa9a2eb028d0a5829638304a95b2674265efacb35975363d740b0318a"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/src/localPlanner.cpp",
+    "source_sha256": "abe5d276b914aac0f4eefe4f09a593cc0af7d1886ca454d3d3969441d9534b0b",
+    "deployment": "sim_runtime/navigation/src/local_planner/src/localPlanner.cpp",
+    "change": "byte-for-byte",
+    "deployment_sha256": "abe5d276b914aac0f4eefe4f09a593cc0af7d1886ca454d3d3969441d9534b0b"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/src/inspectionPathFollower.cpp",
+    "source_sha256": "9309236bc444f1515933f6943ed2aee585b0712882f67818692d340f8b71a18c",
+    "deployment": "sim_runtime/navigation/src/local_planner/src/inspectionPathFollower.cpp",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "0d4a0326e689d1c3063aad5b1d05920a6e6dc39b75d01cf90e90618f973babc7"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/config/omniDir.yaml",
+    "source_sha256": "933292a0f2102097204857d1af94b839e698d1625c0f97248ad8a0c5813790ec",
+    "deployment": "sim_runtime/navigation/src/local_planner/config/omniDir.yaml",
+    "change": "byte-for-byte",
+    "deployment_sha256": "933292a0f2102097204857d1af94b839e698d1625c0f97248ad8a0c5813790ec"
+  },
+  {
+    "source": "unitree_sim_isaaclab/navigation/src/local_planner/config/unitree/unitree_g1.yaml",
+    "source_sha256": "90bd81858a3fdfa3daeb1c2d99fae725653971c5b98a40f0b4c83753583e0243",
+    "deployment": "sim_runtime/navigation/src/local_planner/config/unitree/unitree_g1.yaml",
+    "change": "byte-for-byte",
+    "deployment_sha256": "90bd81858a3fdfa3daeb1c2d99fae725653971c5b98a40f0b4c83753583e0243"
+  },
+  {
+    "source": "unitree_sim_isaaclab/action_provider/action_base.py",
+    "source_sha256": "4bc07ca181b073afed0bb82ea2ba7c3f24e6d7a83dd22872c56da9bd932fc4a6",
+    "deployment": "sim_runtime/action_provider/action_base.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "4bc07ca181b073afed0bb82ea2ba7c3f24e6d7a83dd22872c56da9bd932fc4a6"
+  },
+  {
+    "source": "unitree_sim_isaaclab/action_provider/action_provider_wh_dds.py",
+    "source_sha256": "0988181b4e948bbfd2c5ced6b2a3196c4ac750364b2ba06839f77a73c12b5127",
+    "deployment": "sim_runtime/action_provider/action_provider_wh_dds.py",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "aff0de77736586f1d3c98c4cef685d047655a3ff1ecae20939edab3ed69e0da7"
+  },
+  {
+    "source": "unitree_sim_isaaclab/layeredcontrol/robot_control_system.py",
+    "source_sha256": "de4934ad7ddb633830a90e6f55bdec3acc3a394173ae7f856f1c9af8ded37abc",
+    "deployment": "sim_runtime/layeredcontrol/robot_control_system.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "de4934ad7ddb633830a90e6f55bdec3acc3a394173ae7f856f1c9af8ded37abc"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tools/gimbal_controller.py",
+    "source_sha256": "d37ae3090429389898fac7b43379934f6300d5365c0d05f54a674be84bbd3602",
+    "deployment": "sim_runtime/tools/gimbal_controller.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "d37ae3090429389898fac7b43379934f6300d5365c0d05f54a674be84bbd3602"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tools/data_convert.py",
+    "source_sha256": "e57dae1bca35f48a010a4a45cef315a70f91bb5939532cae29067ea9962948f6",
+    "deployment": "sim_runtime/tools/data_convert.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "e57dae1bca35f48a010a4a45cef315a70f91bb5939532cae29067ea9962948f6"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/common_event/event_manager.py",
+    "source_sha256": "4cbaff0a0bf874c8bd89fa2a9bd4cec20f09868c7663e0c8e4335a92d75c4e84",
+    "deployment": "sim_runtime/tasks/common_event/event_manager.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "4cbaff0a0bf874c8bd89fa2a9bd4cec20f09868c7663e0c8e4335a92d75c4e84"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/common_observations/g1_29dof_state.py",
+    "source_sha256": "b88ef32a7c0dc030b8802b09dc5fdce7ada62842ad21d945d7e8986174163322",
+    "deployment": "sim_runtime/tasks/common_observations/g1_29dof_state.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "b88ef32a7c0dc030b8802b09dc5fdce7ada62842ad21d945d7e8986174163322"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/common_observations/gripper_state.py",
+    "source_sha256": "63f9f12ecd36fc13587fff89acb32b1ce5f69433aaf14bff447b1ffa484b27d1",
+    "deployment": "sim_runtime/tasks/common_observations/gripper_state.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "63f9f12ecd36fc13587fff89acb32b1ce5f69433aaf14bff447b1ffa484b27d1"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/dds_master.py",
+    "source_sha256": "ca3bd4fecc3a27df2a857f8e402823dadd19c1759f0b9c1127ec7a6fb04c59f2",
+    "deployment": "sim_runtime/dds/dds_master.py",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "cdbded9af854014eb81da3649ca68b7ce5eb34deab0e251fd75cf7449fb563b2"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/dds_base.py",
+    "source_sha256": "75a73d832f4feeec17b69a1c06cfddc016838531638ccee1da1955f4f92e0152",
+    "deployment": "sim_runtime/dds/dds_base.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "75a73d832f4feeec17b69a1c06cfddc016838531638ccee1da1955f4f92e0152"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/sharedmemorymanager.py",
+    "source_sha256": "153cb95fc2b906c7bf45edc0bf072c00e9e438a9f6545b9dce195d065cb6c276",
+    "deployment": "sim_runtime/dds/sharedmemorymanager.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "153cb95fc2b906c7bf45edc0bf072c00e9e438a9f6545b9dce195d065cb6c276"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/g1_robot_dds.py",
+    "source_sha256": "fc0165fb0b0bcb3d02e23254e94f72fd952d5315e231ef72fd3b0da25a947558",
+    "deployment": "sim_runtime/dds/g1_robot_dds.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "fc0165fb0b0bcb3d02e23254e94f72fd952d5315e231ef72fd3b0da25a947558"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/gripper_dds.py",
+    "source_sha256": "1c64b9746f793df082f613f1b0b8e530496bc47cbbd131e5832492db218cc417",
+    "deployment": "sim_runtime/dds/gripper_dds.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "1c64b9746f793df082f613f1b0b8e530496bc47cbbd131e5832492db218cc417"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/commands_dds.py",
+    "source_sha256": "2a39afe60ba52bb3c9993a66d03eb6de120dcb49b86637e8e16c3dc3f971ad53",
+    "deployment": "sim_runtime/dds/commands_dds.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "2a39afe60ba52bb3c9993a66d03eb6de120dcb49b86637e8e16c3dc3f971ad53"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/reset_pose_dds.py",
+    "source_sha256": "916dd28598a1cf1e467a685b66355f71ab4655024e709143ad9d4280ef5e4207",
+    "deployment": "sim_runtime/dds/reset_pose_dds.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "916dd28598a1cf1e467a685b66355f71ab4655024e709143ad9d4280ef5e4207"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/sim_state_dds.py",
+    "source_sha256": "29b2bfca55d093e75ba805c0bee37fd79bf677b948892502e51b0df58c36a1fa",
+    "deployment": "sim_runtime/dds/sim_state_dds.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "29b2bfca55d093e75ba805c0bee37fd79bf677b948892502e51b0df58c36a1fa"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/rewards_dds.py",
+    "source_sha256": "aece32201e87c82ed1ada8e499548795885d32e1cb0fc7faed20a46fc23a1b25",
+    "deployment": "sim_runtime/dds/rewards_dds.py",
+    "change": "byte-for-byte",
+    "deployment_sha256": "aece32201e87c82ed1ada8e499548795885d32e1cb0fc7faed20a46fc23a1b25"
+  },
+  {
+    "source": "unitree_sim_isaaclab/dds/dds_create.py",
+    "source_sha256": "f7a92f5b03c1672852b29e03cd95653b61691f079621e394bb3ba024b2cdbfc5",
+    "deployment": "sim_runtime/dds/dds_create.py",
+    "change": "AST extraction: create_dds_objects",
+    "deployment_sha256": "c77dd725883f14961c871d328788651a83bd342434ebe51d78aaafa8efe9d8f5"
+  },
+  {
+    "source": "unitree_sim_isaaclab/robots/unitree.py",
+    "source_sha256": "ec3c3c21e86008bd77b68e52a46a44781f4f66018aa1f2f04637b88fc335fde1",
+    "deployment": "sim_runtime/robots/unitree.py",
+    "change": "AST extraction: project_root,G129_CFG_WITH_DEX1_WHOLEBODY",
+    "deployment_sha256": "b5078408d0b0637ba6eb9f5f33d34f4494969f970594b47d2acf351b52b046bf"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/common_config/robot_configs.py",
+    "source_sha256": "f5aaa256d483796d2fb884b2ce9a2ce7d3998c576236ba5b040ed7d7636f1f9f",
+    "deployment": "sim_runtime/tasks/common_config/robot_configs.py",
+    "change": "AST extraction: RobotJointTemplates,RobotBaseCfg,G1RobotPresets",
+    "deployment_sha256": "5af2acdd2dead8f24150bc503ba44e1d2238e02f2590e6fd352e5e5710c7b69f"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/common_config/camera_configs.py",
+    "source_sha256": "87ddb9998ded7eaaa76e0a80739b591b19c876829bad68c64fa43c9c3414ae94",
+    "deployment": "sim_runtime/tasks/common_config/camera_configs.py",
+    "change": "Release-only adaptation; see migration_inventory.md",
+    "deployment_sha256": "48ca4169c9673a38350e0d6e33cc2a9aeb677eba9bd338c449e53d1910714d61"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/common_scene/base_scene_pickplace_cylindercfg_wholebody.py",
+    "source_sha256": "774a4a4dd3099e59f049bf1f290c3aaec04a0030e029c9c1c70ac5dc3faba2a3",
+    "deployment": "sim_runtime/tasks/common_scene/base_scene_pickplace_cylindercfg_wholebody.py",
+    "change": "No optional world camera",
+    "deployment_sha256": "085913d83addd166e27a97a830037f8ded3c4f38118bf4a844905715262e4c05"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/g1_tasks/move_cylinder_g1_29dof_dex1_wholebody/__init__.py",
+    "source_sha256": "5d3f7adbcee7b8df70d3166dfd9ff6c12b03d861e22c86875dfe436291360e2f",
+    "deployment": "sim_runtime/tasks/g1_tasks/move_cylinder_g1_29dof_dex1_wholebody/__init__.py",
+    "change": "Remove unused Pink import only",
+    "deployment_sha256": "5d3f7adbcee7b8df70d3166dfd9ff6c12b03d861e22c86875dfe436291360e2f"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/g1_tasks/move_cylinder_g1_29dof_dex1_wholebody/move_cylinder_g1_29dof_dex1_hw_env_cfg.py",
+    "source_sha256": "569cccde94b684739cac5c3fe89913e90574287a711cb641c3d503f7b4aac002",
+    "deployment": "sim_runtime/tasks/g1_tasks/move_cylinder_g1_29dof_dex1_wholebody/move_cylinder_g1_29dof_dex1_hw_env_cfg.py",
+    "change": "Remove unused Pink import only",
+    "deployment_sha256": "8c9407e9b1fa4b0e7e5ad589ff0b0f58d0b70330dbdf9efbe5b372d45a8fff80"
+  },
+  {
+    "source": "unitree_sim_isaaclab/tasks/g1_tasks/move_cylinder_g1_29dof_dex1_wholebody/mdp/observations.py",
+    "source_sha256": "1b52e35c50099177b1c98d47b2aa8c8d64417dce8ad41691b2857faf9eef581d",
+    "deployment": "sim_runtime/tasks/g1_tasks/move_cylinder_g1_29dof_dex1_wholebody/mdp/observations.py",
+    "change": "Remove unused Pink import only",
+    "deployment_sha256": "a4e5eff0cee9a75c2c432c3c9f0823ceda2f11c23e356bc5f6d427f17e356bb7"
+  },
+  {
+    "source": "unitree_sim_isaaclab/LICENSE",
+    "source_sha256": "c9294c93c8aa7bd5fb18bf0f3db3f8dc3fd4972be79f4227de3fa7e416201d68",
+    "deployment": "third_party/licenses/unitree_sim.LICENSE",
+    "change": "byte-for-byte",
+    "deployment_sha256": "c9294c93c8aa7bd5fb18bf0f3db3f8dc3fd4972be79f4227de3fa7e416201d68"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/outputs/grpo_0_3m_from_va_sft_577_best/checkpoints/s1_3m_r0001.pt",
+    "source_sha256": "6356ea40de6fd02b6988adf751aa6f7f788b4240137ee2aedd6b2e1f95312af8",
+    "deployment": "models/grpo_viewpoint.pt",
+    "change": "byte-for-byte",
+    "deployment_sha256": "6356ea40de6fd02b6988adf751aa6f7f788b4240137ee2aedd6b2e1f95312af8"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/models/dinov2_vitb14_pretrain.pth",
+    "source_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+    "deployment": "models/dinov2_vitb14_pretrain.pth",
+    "change": "byte-for-byte",
+    "deployment_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+  },
+  {
+    "source": "active_view_g1/gimbal_tvr/src/gimbal_tvr/simulation_lock.py",
+    "source_sha256": "27c7860f10da9d0a31f1bca63df1fef49f615e29ccd8b31e66b78654f08d5e14",
+    "deployment": "src/gimbal_tvr/simulation_lock.py",
+    "deployment_sha256": "27c7860f10da9d0a31f1bca63df1fef49f615e29ccd8b31e66b78654f08d5e14",
+    "change": "byte-for-byte"
+  },
+  {
+    "source": "active_view_g1/g1-active-view/third_party/DINOV2_LICENSE",
+    "source_sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+    "deployment": "third_party/DINOV2_LICENSE",
+    "deployment_sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+    "change": "byte-for-byte"
+  },
+  {
+    "source": "isaacsimFactoryDemo/planner/tests/test_periodic_reading.py",
+    "source_sha256": "52e67807aa94adf06812a28ecbc916da1d11ef3fcd2e9eb8185e0936f76d44bb",
+    "deployment": "tests/test_periodic_reading.py",
+    "deployment_sha256": "22eab4563bb2cdd1497f62fa1f3d48f0a84a80a3856e86206ae226a17002e5bb",
+    "change": "Release-only adaptation; see migration_inventory.md"
+  },
+  {
+    "source": "unitree_sim_isaaclab/sim_main.py",
+    "source_sha256": "7330223a6da6a56e2b2f4c9601803e9f1951e4082f7ff5955db0832ab4f03b39",
+    "deployment": "sim_runtime/run_single_point.py",
+    "deployment_sha256": "e01f1a445e0e7b88eead61728e50ecad69d1c5e50bf11f08e1b62adac9b6e68d",
+    "change": "Retain selected task, shared DDS/controller, real navigation and LiveSinglePoint branch; explicit roots/resources; headless; exclude unrelated branches; loopback; no complete simulator validation this turn"
+  }
+]

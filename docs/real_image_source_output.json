@@ -1,0 +1,65 @@
+{
+  "current_sha256": "308f6da6decf82748c8e5106fa6e5db4b8270642f0bb4379f2f38f9269d2f8e6",
+  "target_sha256": "426e06c2e77698c0dc066587a7750a9b7d93e615d75e89aab3f877e02c1dec7e",
+  "history": [
+    "MoveYPos",
+    "BodyYawRight",
+    "GimbalPitchDown",
+    "MoveXNeg",
+    "MoveYNeg",
+    "BodyYawLeft",
+    "GimbalPitchUp",
+    "MoveXPos"
+  ],
+  "expected": {
+    "logits": [
+      0.0,
+      -7.743427276611328,
+      -7.113096237182617,
+      -8.223665237426758,
+      -9.085596084594727,
+      -8.010870933532715,
+      -7.654299259185791,
+      -10.337858200073242,
+      -0.6577169895172119
+    ],
+    "probabilities": [
+      0.6576781868934631,
+      0.0002851580793503672,
+      0.0005355931352823973,
+      0.0001764090993674472,
+      7.450564589817077e-05,
+      0.00021824102441314608,
+      0.00031174070318229496,
+      2.1297992134350352e-05,
+      0.340698778629303
+    ],
+    "action_id": 0,
+    "action_name": "MoveXPos",
+    "similarity": 0.8598790168762207,
+    "visual_inliers": 91
+  },
+  "fixture_rights": "Not included; original local rendered pair used for migration check only",
+  "source": [
+    {
+      "path": "src/gimbal_tvr/monotone_stop_policy.py",
+      "sha256": "79a5c00e226cc5225b233f75fca0bc36d6512f137b5e550904eea61077fc2464"
+    },
+    {
+      "path": "src/gimbal_tvr/magnitude_visual_policy.py",
+      "sha256": "7fa136ed9174fdaab39cd00f1b66df08a16a147c63bd2f083c6303e4f5ec1daa"
+    },
+    {
+      "path": "src/gimbal_tvr/relative_visual_policy.py",
+      "sha256": "58feef3f94f9ecc885d6a8cd2920a9f7a234e390a58c996403b99803b307ef43"
+    },
+    {
+      "path": "src/gimbal_tvr/dedicated_policy.py",
+      "sha256": "582b564ddf396ddbf7775bb4aedb76530e67c8f189a8f6fe1a3a60de92082647"
+    },
+    {
+      "path": "src/gimbal_tvr/local_dijkstra.py",
+      "sha256": "26c10db986a9761658c239d7cfd2635368cec2565b8e5c780deaf6f431091343"
+    }
+  ]
+}

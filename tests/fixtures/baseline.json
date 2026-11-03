@@ -1,0 +1,182 @@
+{
+  "generator": "scripts/generate_source_baseline.py (requires original sources explicitly; never used at runtime)",
+  "source_files": [
+    {
+      "path": "src/gimbal_tvr/monotone_stop_policy.py",
+      "sha256": "79a5c00e226cc5225b233f75fca0bc36d6512f137b5e550904eea61077fc2464"
+    },
+    {
+      "path": "src/gimbal_tvr/magnitude_visual_policy.py",
+      "sha256": "7fa136ed9174fdaab39cd00f1b66df08a16a147c63bd2f083c6303e4f5ec1daa"
+    },
+    {
+      "path": "src/gimbal_tvr/relative_visual_policy.py",
+      "sha256": "58feef3f94f9ecc885d6a8cd2920a9f7a234e390a58c996403b99803b307ef43"
+    },
+    {
+      "path": "src/gimbal_tvr/dedicated_policy.py",
+      "sha256": "582b564ddf396ddbf7775bb4aedb76530e67c8f189a8f6fe1a3a60de92082647"
+    },
+    {
+      "path": "src/gimbal_tvr/local_dijkstra.py",
+      "sha256": "26c10db986a9761658c239d7cfd2635368cec2565b8e5c780deaf6f431091343"
+    }
+  ],
+  "checkpoint_sha256": "6356ea40de6fd02b6988adf751aa6f7f788b4240137ee2aedd6b2e1f95312af8",
+  "torch": "2.13.0+cu130",
+  "device": "cpu",
+  "seed": 42,
+  "eval": true,
+  "no_grad": true,
+  "fixtures": "Synthetic geometric images authored for release; not a real navigation result.",
+  "cases": [
+    {
+      "name": "synthetic_shift",
+      "current": "tests/fixtures/current.png",
+      "target": "tests/fixtures/target.png",
+      "current_sha256": "131c2afa25973a6f26ca8937988883a9633e707dfa37bfbddb1b67cb95e52664",
+      "target_sha256": "45683f7b4dab45ce8630d77bf444c9f011d6d60b91d65b652d60e8701e3b0ed0",
+      "history": [
+        "MoveXPos",
+        "BodyYawLeft",
+        "GimbalPitchUp"
+      ],
+      "expected": {
+        "logits": [
+          -2.374022960662842,
+          -0.7393096685409546,
+          0.0,
+          -1.7417088747024536,
+          -1.648145318031311,
+          -2.6787800788879395,
+          -1.7561038732528687,
+          -1.837684154510498,
+          0.9592683911323547
+        ],
+        "probabilities": [
+          0.01881483383476734,
+          0.09648222476243973,
+          0.20208097994327545,
+          0.03540877252817154,
+          0.038881681859493256,
+          0.013872222974896431,
+          0.03490271791815758,
+          0.032168395817279816,
+          0.5273882150650024
+        ],
+        "action_id": 8,
+        "action_name": "Stop",
+        "similarity": 0.9732585549354553,
+        "visual_inliers": 368
+      }
+    },
+    {
+      "name": "synthetic_stop",
+      "current": "tests/fixtures/target.png",
+      "target": "tests/fixtures/target.png",
+      "current_sha256": "45683f7b4dab45ce8630d77bf444c9f011d6d60b91d65b652d60e8701e3b0ed0",
+      "target_sha256": "45683f7b4dab45ce8630d77bf444c9f011d6d60b91d65b652d60e8701e3b0ed0",
+      "history": [],
+      "expected": {
+        "logits": [
+          -0.25676870346069336,
+          -0.10317602008581161,
+          0.0,
+          -0.13704906404018402,
+          -0.03058326244354248,
+          -0.45089685916900635,
+          -0.1038990169763565,
+          -0.1741069108247757,
+          0.5661888122558594
+        ],
+        "probabilities": [
+          0.08935052901506424,
+          0.10418413579463959,
+          0.11550755053758621,
+          0.10071419924497604,
+          0.11202842742204666,
+          0.07358483970165253,
+          0.10410883277654648,
+          0.0970502570271492,
+          0.20347124338150024
+        ],
+        "action_id": 8,
+        "action_name": "Stop",
+        "similarity": 0.9999998211860657,
+        "visual_inliers": 396
+      }
+    },
+    {
+      "name": "same_blank",
+      "current": "tests/fixtures/blank.png",
+      "target": "tests/fixtures/blank.png",
+      "current_sha256": "441da7236f6ffdd8fb4cdfa2d9ce7b8d8df8cf2f7a8e82c530714d92266ce613",
+      "target_sha256": "441da7236f6ffdd8fb4cdfa2d9ce7b8d8df8cf2f7a8e82c530714d92266ce613",
+      "history": [],
+      "expected": {
+        "logits": [
+          -0.25676870346069336,
+          -0.10317602008581161,
+          0.0,
+          -0.13704906404018402,
+          -0.03058326244354248,
+          -0.45089685916900635,
+          -0.1038990169763565,
+          -0.1741069108247757,
+          0.5661888122558594
+        ],
+        "probabilities": [
+          0.08935052901506424,
+          0.10418413579463959,
+          0.11550755053758621,
+          0.10071419924497604,
+          0.11202842742204666,
+          0.07358483970165253,
+          0.10410883277654648,
+          0.0970502570271492,
+          0.20347124338150024
+        ],
+        "action_id": 8,
+        "action_name": "Stop",
+        "similarity": 1.0,
+        "visual_inliers": 0
+      }
+    },
+    {
+      "name": "different_textureless",
+      "current": "tests/fixtures/blank.png",
+      "target": "tests/fixtures/gray.png",
+      "current_sha256": "441da7236f6ffdd8fb4cdfa2d9ce7b8d8df8cf2f7a8e82c530714d92266ce613",
+      "target_sha256": "d7a63f76547125dc28785a1f1247a6996cc06bc935739115f9e3150c29956858",
+      "history": [],
+      "expected": {
+        "logits": [
+          -4.4743757247924805,
+          -2.9581284523010254,
+          -4.149066925048828,
+          -2.4386303424835205,
+          -3.070417881011963,
+          -4.5930256843566895,
+          0.0,
+          -5.392673492431641,
+          -5.072446823120117
+        ],
+        "probabilities": [
+          0.009238234721124172,
+          0.042081069201231,
+          0.012789946980774403,
+          0.07074601203203201,
+          0.037611450999975204,
+          0.008204647339880466,
+          0.8105608820915222,
+          0.0036878841929137707,
+          0.005079839378595352
+        ],
+        "action_id": 6,
+        "action_name": "GimbalPitchUp",
+        "similarity": 0.641423761844635,
+        "visual_inliers": 0
+      }
+    }
+  ]
+}
