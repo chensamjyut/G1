@@ -1,0 +1,82 @@
+{
+  "clone_kind": "local_git_clone_no_local_no_hardlinks_not_GitHub",
+  "verified_source_commit": "50c2cc310812fa2d0beef5a3b6868397374465d7",
+  "tracked_files": 166,
+  "lfs_object_check": "git lfs fsck OK in source and clone",
+  "lfs_models": [
+    {
+      "sha256": "6356ea40de6fd02b6988adf751aa6f7f788b4240137ee2aedd6b2e1f95312af8",
+      "size_bytes": 2630354,
+      "file": "grpo_viewpoint.pt"
+    },
+    {
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "size_bytes": 346378731,
+      "file": "dinov2_vitb14_pretrain.pth"
+    }
+  ],
+  "dino_runtime_tree_sha256": "b9264352b91f0ac437a3952d7e1ab805a8ccfdb62dfcdca863f787f35f1cf743",
+  "clean_venv": true,
+  "include_system_site_packages": false,
+  "base_interpreter": "existing Python3.11.15 executable; base site-packages not inherited",
+  "installed_from": "wheel built from local Git clone",
+  "module_loaded_from": "venv/lib/python3.11/site-packages/g1_active_view",
+  "source_project_in_sys_path": false,
+  "working_directory": "outside either checkout",
+  "TORCH_HOME": "empty temporary directory",
+  "network_prohibited_during_inference": true,
+  "offline_regression": {
+    "passed": true,
+    "cases": [
+      {
+        "case": "synthetic_shift",
+        "passed": true,
+        "max_logits_abs_error": 2.0742416381835938e-05,
+        "max_probability_abs_error": 1.6689300537109375e-06,
+        "similarity_abs_error": 5.960464477539063e-08,
+        "action": "Stop",
+        "inliers": 368
+      },
+      {
+        "case": "synthetic_stop",
+        "passed": true,
+        "max_logits_abs_error": 0.0,
+        "max_probability_abs_error": 0.0,
+        "similarity_abs_error": 1.7881393432617188e-07,
+        "action": "Stop",
+        "inliers": 396
+      },
+      {
+        "case": "same_blank",
+        "passed": true,
+        "max_logits_abs_error": 0.0,
+        "max_probability_abs_error": 0.0,
+        "similarity_abs_error": 0.0,
+        "action": "Stop",
+        "inliers": 0
+      },
+      {
+        "case": "different_textureless",
+        "passed": true,
+        "max_logits_abs_error": 7.3909759521484375e-06,
+        "max_probability_abs_error": 7.748603820800781e-07,
+        "similarity_abs_error": 1.1920928955078125e-07,
+        "action": "GimbalPitchUp",
+        "inliers": 0
+      }
+    ],
+    "network_prohibited": true,
+    "device": "cpu",
+    "torch": "2.8.0+cpu",
+    "tolerance_basis": "FP32 cross-PyTorch-version roundoff only; strict action/inlier equality; source same-environment parity also recorded"
+  },
+  "clone_unit_tests": {
+    "passed": 38,
+    "failed": 0
+  },
+  "untracked_source_files_copied_into_clone": false,
+  "private_assets_in_clone": false,
+  "full_simulation_verified": false,
+  "original_source_hashes_still_match": true,
+  "original_source_mismatches": []
+}

@@ -16,7 +16,7 @@
 
 - 新 `/tmp/g1-release-venv`：Python3.11.15，`include-system-site-packages=false`。CPU PyTorch2.8.0+cpu；numpy1.26.4、OpenCV4.11.0.86、Pillow11.2.1、PyYAML6.0.2，完整版本见requirements。
 - 实际安装：`python -m pip install -e '.[test,reader]'`。从仓库外 `/tmp` 且无原项目PYTHONPATH执行check-models、environment、replay和pytest。
-- wheel已实际构建。最终本地Git克隆/wheel安装检查结果另见`delivery_validation.json`，不将本地克隆写成GitHub下载验证。
+- wheel已从全新本地Git克隆实际构建并安装（替换editable安装），从仓库外、空TORCH_HOME、无原工程sys.path通过4组离线回放及38项测试。两个LFS权重在clone中校验通过，未复制未跟踪文件或私有资源。检查结果另见`delivery_validation.json`，不将本地克隆写成GitHub下载验证。
 - 两个模型的SHA256及DINOv2树哈希实际校验通过。所有大权重标记Git LFS，非普通Git二进制。
 - C++导航：首次默认构建失败，原因本机GCC11链接桩缺少ROS所需 `GLIBCXX_3.4.30`；显式指定当前系统已有libstdc++.so.6后，两包构建成功。未改系统库。编译警告保留为上游代码警告，不修改算法。
 - 真实C++节点 + 合成ROS输入，独立domain177、loopback：收到1472条非空路径、735条速度消息、135条状态消息。属于**合成ROS组件测试**，不是实际导航到达成功。命令见`scripts/test_navigation_transport.py`。沙箱UDP受限产生警告，节点通过本机ROS transport完成消息交换；不宣称UDP外网验证通过。

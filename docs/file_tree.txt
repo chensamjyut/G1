@@ -2,6 +2,7 @@
 .gitignore
 README.md
 configs/mission.example.json
+docs/delivery_validation.json
 docs/dinov2_inventory.json
 docs/file_tree.txt
 docs/independent_environment.json

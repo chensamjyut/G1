@@ -20,5 +20,9 @@
     "Current environment has no ARK_API_KEY",
     "Private asset/public redistribution authorization unresolved",
     "Full GPU platform independent installation and Kit material/ground resource verification outstanding"
-  ]
+  ],
+  "independent_cpu_wheel_install": "PASS",
+  "local_git_clone_and_LFS": "PASS",
+  "clone_offline_regression": "PASS",
+  "original_sources_unchanged_by_hash": true
 }
