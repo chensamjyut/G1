@@ -47,3 +47,7 @@ G1_CXX_RUNTIME=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 bash "$RELEASE_ROOT/scri
 ## 本轮发布范围复核
 
 保留完整 Demo 启动、Planner、导航、云台视角模型及 API 读数代码。排除所有仿真资产，两个策略/视觉权重保持原 SHA256，算法不变。38 项测试重新执行通过；模型离线回归另行复跑，结果见 upload_scope_check.json。未启动仿真或影响当前训练。用户不再要求以成绩作为上传门槛，真实闭环尚未验收的事实保留。
+
+## GitHub 远程交付验证
+
+完整代码及两个 LFS 权重已上传；从 GitHub 全新克隆，确认两个权重及 DINOv2 源码哈希匹配。从克隆构建并安装 wheel 到现有 CPU venv，从仓库外运行模型校验、38 项测试和4组禁止网络推理回归全部通过。本轮复用依赖环境，不宣称重新创建独立环境；未运行 Isaac 或真实 API。详见 github_delivery_validation.json。

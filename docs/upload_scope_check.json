@@ -11,7 +11,7 @@
   "algorithm_changed": false,
   "checkpoint_changed": false,
   "full_simulation_retested": false,
-  "remote_uploaded": false,
+  "remote_uploaded": true,
   "offline_replay": {
     "passed": true,
     "cases": [
@@ -56,5 +56,6 @@
     "device": "cpu",
     "torch": "2.8.0+cpu",
     "tolerance_basis": "FP32 cross-PyTorch-version roundoff only; strict action/inlier equality; source same-environment parity also recorded"
-  }
+  },
+  "remote_clone_verified": true
 }

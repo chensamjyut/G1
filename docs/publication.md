@@ -55,3 +55,7 @@ git lfs fsck
 HTTPS 推送因未配置登录凭据失败。随后现有 SSH 身份成功认证为 `wxy20010505`，但 GitHub 明确拒绝该账号写入 `chensamjyut/G1`（Permission denied）。代码和 LFS 对象均未上传，无法进行远程克隆验证。需要仓库所有者授予该账号 Write 权限并由账号接受邀请，或在本机配置有权限的身份。独立发布仓库 origin 已设为 `git@github.com:chensamjyut/G1.git`；未改动原项目 remote。
 
 用户已配置独立 SSH 密钥并成功认证为 `chensamjyut`。先前账号权限问题已解除，重新检查远端未发现 refs，准备执行授权上传。
+
+## 最终结果：上传与 GitHub 克隆验证通过
+
+代码及两个 LFS 权重已成功推送到 `release/g1-inspection-minimal`。全新 GitHub 克隆后 LFS fsck、模型 SHA256、DINOv2 树哈希、38 项测试及4组禁止网络推理回归均通过。克隆代码构建 wheel 并安装到既有 CPU venv，不是本轮重新创建独立环境。未启动仿真，未上传资产，未验证真实 API。证据见 `github_delivery_validation.json`。上文失败记录为已解决的历史过程。

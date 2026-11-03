@@ -133,4 +133,4 @@ G1_CXX_RUNTIME=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 bash scripts/build_navig
 
 ## 验证及发布
 
-详见 [validation_report.md](docs/validation_report.md)、[release_status.json](docs/release_status.json)、[file_tree.txt](docs/file_tree.txt)、[publication.md](docs/publication.md)。原源码/模型逐文件来源在 `docs/source_provenance.json`。未推送任何远程，也未改变原仓库remote。
+详见 [validation_report.md](docs/validation_report.md)、[release_status.json](docs/release_status.json)、[file_tree.txt](docs/file_tree.txt)、[publication.md](docs/publication.md)。原源码/模型逐文件来源在 `docs/source_provenance.json`。已发布到 `https://github.com/chensamjyut/G1` 的 `release/g1-inspection-minimal` 分支，并通过 GitHub 全新克隆、LFS、模型哈希及离线回归验证，详见 `docs/github_delivery_validation.json`。未改变原项目 remote。

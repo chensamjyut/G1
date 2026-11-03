@@ -5,6 +5,7 @@ configs/mission.example.json
 docs/delivery_validation.json
 docs/dinov2_inventory.json
 docs/file_tree.txt
+docs/github_delivery_validation.json
 docs/independent_environment.json
 docs/local_import_closure.json
 docs/migration_inventory.md
