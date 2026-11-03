@@ -49,3 +49,7 @@ git lfs fsck
 远端 ls-remote 已成功，未返回任何 refs。实际 git push 在执行前被自动审批拒绝：需要用户明确批准本次向外部仓库发布源码与模型权重。未上传代码或 LFS 对象；没有执行 GitHub 全新克隆验证。待明确授权后上传 `release/g1-inspection-minimal`，不强推。
 
 用户随后明确回复“上传”，确认发布上述代码和两个 LFS 权重到指定仓库及分支。此前审批阻塞已获得所要求的明确用户授权；将重新尝试推送，实际网络结果以 GitHub 远端校验为准。
+
+## 明确授权后的实际尝试
+
+HTTPS 推送因未配置登录凭据失败。随后现有 SSH 身份成功认证为 `wxy20010505`，但 GitHub 明确拒绝该账号写入 `chensamjyut/G1`（Permission denied）。代码和 LFS 对象均未上传，无法进行远程克隆验证。需要仓库所有者授予该账号 Write 权限并由账号接受邀请，或在本机配置有权限的身份。独立发布仓库 origin 已设为 `git@github.com:chensamjyut/G1.git`；未改动原项目 remote。
