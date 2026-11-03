@@ -13,11 +13,9 @@
   "navigation_transport": "PASS_SYNTHETIC_INPUT_NOT_REAL_MOVEMENT",
   "simulator_full_mission": "NOT_RUN_ACTIVE_TRAINING_PRESERVED",
   "real_api_reading": "NOT_RUN_NO_KEY_IN_CURRENT_ENVIRONMENT",
-  "public_release": "UPLOAD_BLOCKED_AUTOMATIC_APPROVAL",
+  "public_release": "EXPLICITLY_AUTHORIZED_PENDING_PUSH",
   "github_pushed": false,
-  "blocking_items": [
-    "Automatic approval rejected git push: exact external publication approval required"
-  ],
+  "blocking_items": [],
   "independent_cpu_wheel_install": "PASS",
   "local_git_clone_and_LFS": "PASS",
   "clone_offline_regression": "PASS",
