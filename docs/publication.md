@@ -1,39 +1,45 @@
-# GitHub 发布门禁与命令
+# 发布范围与上传方式
 
-目标由用户指定为 `https://github.com/chensamjyut/G1.git`。本轮只准备本地独立仓库，未推送、未修改源仓库remote。不是对GitHub远程下载的验证。
+用户已明确授权向 `https://github.com/chensamjyut/G1.git` 上传四部分：已选封装 GRPO 模型及运行代码、Planner、导航、读数；不再以评测成绩作为上传门槛。
 
-## 当前阻塞
+## 上传内容
 
-1. 自有planner/策略源码和权重没有可证明的统一公开许可，不擅自替作者选LICENSE。需要确认对目标仓库的上传授权、这些新增源码和权重的公开范围。
-2. `resources/private/`包含工厂、目标截图及G1自定义USD/模型；未公开。工厂包受 NVIDIA Omniverse content terms约束，条款副本在 `third_party/licenses/factory_terms.txt`。确认合法分发或改为有权访问的私有资源交付，不能假造公开下载地址。
-3. 原 localPlanner 声明BSD，但此工作目录没有独立完整许可证文本；发布前需要核实上游来源及完整许可文本。serial自带MIT许可已保留；Unitree派生代码保留Apache-2.0；DINOv2 Apache-2.0许可已保留（无CLIP依赖，不打包CLIP实现）。
-4. 新执行接口下的真实Isaac闭环及API读数未验收，详见验证报告。不能把控制流单元测试或ROS合成输入写成真实巡检成功。
+- 固定 `models/grpo_viewpoint.pt` 与所需 DINOv2 权重，均使用 Git LFS；不重新选择、训练或转换权重。
+- 保留实际运行和接口代码、配置、依赖、测试及第三方许可证。`sim_runtime/` 是接入代码，不含场景资产。
+- 不上传 `resources/private/`、USD/机器人/云台资产、工厂贴图、步行 ONNX、真实目标照片、训练输出、密钥或本机配置。仅保留四张合成测试 PNG。
+- 原模型来源和历史评测保留作可追溯记录，不宣称云台 yaw 改接后的成绩已测得。
+- 上传授权不是为全部自有代码另选开源许可证；保留已有版权声明，不新增项目许可证。
 
-## 审核解除后执行
+## 运行局限
 
-不要强推或覆盖现有远端历史。以下操作仅针对本独立目录：
+资源由使用方合法另行提供。完整仿真闭环、云台接口后的闭环效果、真实 API 和真机能力仍未验收；这些不是本轮上传的成绩门槛。不得将离线测试通过描述为巡检任务完成。
+
+## 上传步骤
+
+只修改本独立发布仓库 remote；先检查远端历史，不覆盖默认分支或强推：
 
 ```bash
 cd /path/to/github_release
-git status --short
 git lfs fsck
-git lfs ls-files
-git remote -v
-# 若origin不存在才添加：
+git ls-remote https://github.com/chensamjyut/G1.git
+# origin 尚不存在时添加
 git remote add origin https://github.com/chensamjyut/G1.git
-git ls-remote origin
 git fetch origin
-# 检查远程内容/历史后，推到新分支供审查，不覆盖默认分支：
 git push -u origin HEAD:release/g1-inspection-minimal
 ```
 
-LFS pre-push hook会上传当前提交需要的两个权重；如失败则发布未完成。默认不推任何resources/private、config/*.local.json、.env或日志。检查 GitHub LFS配额和权限后，从远程重新clone、`git lfs pull`、模型校验、离线基准复核，才可称远端交付通过：
+## 远程交付校验
 
 ```bash
 git clone --branch release/g1-inspection-minimal https://github.com/chensamjyut/G1.git G1-verify
 cd G1-verify
 git lfs pull
-# 按README创建独立环境，再运行check-models / replay --offline。
+git lfs fsck
+# 按 README 安装独立环境后
+.venv/bin/g1-inspection --root "$PWD" check-models
+.venv/bin/g1-inspection --root "$PWD" replay --offline
 ```
 
-本地提交身份使用自动化 `Release preparation <release@invalid>`，避免把工作站原有私人身份配置写入新仓库提交；这不是对原作者的许可替代或署名替换，所有源码版权声明仍保留。
+本机 Git/LFS 验证不等于 GitHub 上传或下载验证。实际状态见 `release_status.json`。
+
+第三方来源说明：localPlanner 的原 package.xml 声明 BSD，但当前来源目录未提供独立完整许可文本；此事实仍保留，不能把上传授权表述为已补全上游许可。

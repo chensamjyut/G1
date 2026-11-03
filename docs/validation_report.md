@@ -43,3 +43,7 @@ G1_CXX_RUNTIME=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 bash "$RELEASE_ROOT/scri
 ```
 
 完整任务需合法资源、已配置Isaac/ROS平台、有效API密钥且无占用仿真实例，再执行README的 `run` 与 `start_mission.py`。本报告没有伪造真实SUCCESS、碰撞率或新模型任务成功率。
+
+## 本轮发布范围复核
+
+保留完整 Demo 启动、Planner、导航、云台视角模型及 API 读数代码。排除所有仿真资产，两个策略/视觉权重保持原 SHA256，算法不变。38 项测试重新执行通过；模型离线回归另行复跑，结果见 upload_scope_check.json。未启动仿真或影响当前训练。用户不再要求以成绩作为上传门槛，真实闭环尚未验收的事实保留。

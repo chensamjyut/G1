@@ -23,6 +23,7 @@ docs/source_provenance.json
 docs/source_robot_usd_check.json
 docs/source_scene_usd_check.json
 docs/unit_tests.xml
+docs/upload_scope_check.json
 docs/validation_report.md
 execution/configs/execution_profile_packaged.json
 execution/configs/executor.json

@@ -20,3 +20,22 @@ sim_runtime/navigation/log/
 *.pem
 *.key
 sim_runtime/navigation/ros_home/
+
+# Publication scope: no Isaac/robot scene assets, textures or walking model binaries.
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.mdl
+*.obj
+*.fbx
+*.stl
+*.dae
+*.onnx
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.hdr
+*.dds
+!tests/fixtures/*.png

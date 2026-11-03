@@ -13,16 +13,21 @@
   "navigation_transport": "PASS_SYNTHETIC_INPUT_NOT_REAL_MOVEMENT",
   "simulator_full_mission": "NOT_RUN_ACTIVE_TRAINING_PRESERVED",
   "real_api_reading": "NOT_RUN_NO_KEY_IN_CURRENT_ENVIRONMENT",
-  "public_release": "BLOCKED_LICENSE_RESOURCE_AND_LIVE_ACCEPTANCE",
+  "public_release": "READY_FOR_REMOTE_ACCESS_CHECK",
   "github_pushed": false,
   "blocking_items": [
-    "Full Isaac mission and yaw-remapped performance unverified",
-    "Current environment has no ARK_API_KEY",
-    "Private asset/public redistribution authorization unresolved",
-    "Full GPU platform independent installation and Kit material/ground resource verification outstanding"
+    "GitHub connectivity and write authorization must be verified before push"
   ],
   "independent_cpu_wheel_install": "PASS",
   "local_git_clone_and_LFS": "PASS",
   "clone_offline_regression": "PASS",
-  "original_sources_unchanged_by_hash": true
+  "original_sources_unchanged_by_hash": true,
+  "publication_scope": "four runtime components and two LFS weights; no simulation assets",
+  "upload_authorized": true,
+  "performance_gate_for_upload": false,
+  "runtime_limitations": [
+    "Full Isaac mission and gimbal-yaw remapped performance unverified",
+    "API and external simulation resources must be supplied separately",
+    "GPU/Orin/real hardware not validated"
+  ]
 }
