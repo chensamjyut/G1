@@ -43,3 +43,7 @@ git lfs fsck
 本机 Git/LFS 验证不等于 GitHub 上传或下载验证。实际状态见 `release_status.json`。
 
 第三方来源说明：localPlanner 的原 package.xml 声明 BSD，但当前来源目录未提供独立完整许可文本；此事实仍保留，不能把上传授权表述为已补全上游许可。
+
+## 本轮实际上传结果
+
+远端 ls-remote 已成功，未返回任何 refs。实际 git push 在执行前被自动审批拒绝：需要用户明确批准本次向外部仓库发布源码与模型权重。未上传代码或 LFS 对象；没有执行 GitHub 全新克隆验证。待明确授权后上传 `release/g1-inspection-minimal`，不强推。
